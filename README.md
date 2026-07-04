@@ -4,7 +4,6 @@
 
 
 ![Dashboard Monthly -Excel.png](https://github.com/lindahafrifa-code/Volve-Field-Production-Analytics-Python-Jupyter/blob/main/excel/Dashboard%20Monthly%20-Excel.png)
-
 ---
 
 
