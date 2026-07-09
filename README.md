@@ -4,7 +4,7 @@ Volve was a small oil field in the North Sea. It produced from sandstones of the
 
 It started producing in 2008, was expected to last 3-5 years, and ran for 8. It shut down in 2016.
 
-In 2018 Equinor and partners released all of its 40,000 data files to the public , every well, every day, for the whole life of the field.
+In 2018 Equinor and partners released all of its 40,000 data files to the public , every well: every day, for the whole life of the field.
 
 This project takes that data from databricks and asks one question: **can you work out what happened to a field, and why, using only its production records?**
 
@@ -166,24 +166,30 @@ Built with Python and Excel.
 
 **Operations**
 1. Choke size versus downhole pressure
-2. 32-day shut-in analysis for well F-12H
+2. 32-day shut-in analysis for well F-12 H
 3. Production behaviour before and after restart
 
 ---
 ## Why Volve?
 
-Volve dataset comprises approximately 40,000 files from the Volve field, which was in production from 2008 to 2016 (Equinor volve-data-sharing page).
+Volve dataset comprises approximately 40,000 files from the Volve field, which was in production from 2008 to 2016 (Equinor).
 
 The dataset is used for 4 main reasons: 
 1. **It is real**: Real allocated production data, with real problems: NULL text in numeric columns, wells that changed role mid-life, missing sensor readings. This means cleaning it requires applying my professional skills.
 2.**It is verifiable**: Volve's field history is publicly documented.
 Adding up the daily production myself gives **10,037,081 Sm³** of oil. The Norwegian Offshore Directorate's total, summed across all wellbores, is **10,069,554 Sm³** .
-A difference of **0.32%**. Every cleaning decision I made had to be right for that to happen. ([Sodir Factpages](https://factpages.sodir.no/en/field/PageView/All/3420717))
+A difference of **0.32%**. Every cleaning decision I made had to be right for that to happen.
 3. **It is a known field**: NCS operators know this field. Meaning the analysis can be judged on its merits by people who know the right answers.
 4. **It's good for going beyond**: As a geoscientist, I wanted to apply my knowlege beyond creating charts and demonstrate how production data can be explored to understand well performance, identify production trends, and support operational decision-making.
 To reflect the type of analysis done by multidisciplinary teams working across subsurface, production and data analytics.
 
 ------
+## Sources
+
+- [Volve field data set download — Equinor](https://www.equinor.com/energy/volve-data-sharing)
+- [Field: VOLVE — Factpages, Norwegian Offshore Directorate (Sodir)](https://factpages.sodir.no/en/field/PageView/All/3420717)
+
+-------
 
 ## Huge credit -  Data licence & attribution
 
