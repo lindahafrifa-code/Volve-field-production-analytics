@@ -11,7 +11,7 @@ Pressure was maintained by water injection, with injection water drawn from the 
 ## Why Volve project?
 
 Volve is a comprehensive open dataset released from the NCS: roughly 40,000 files disclosed by Equinor and its licence partners (ExxonMobil, Bayerngas) in 2018.
-The dataset is used for 3 main reasons: 
+The dataset is used for 4 main reasons: 
 1. **It is real.** Real allocated production data, with real problems: NULL text in numeric columns, wells that changed role mid-life, missing sensor readings. This means cleaning it requires applying my professional skills instead of formulas only.
 2. **It is verifiable.** The Volve's field history is publicly documented with peak production of ~56,000 bbl/d (≈9,000 Sm³/d), 63 million barrels recovered, a 54% recovery rate. Hence results from the repo can be reconciled against the official NPD records.
 3. **It is a known field.** NCS operators know this field. Meaning the analysis can be judged on its merits by people who know the right answers.
