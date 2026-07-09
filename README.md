@@ -1,6 +1,6 @@
 # Volve: What Killed an Oil Field?
 
-Volve was a small oil field in the North Sea. It produced from sandstones of the Middle Jurassic **Hugin Formation** at ~2,700–3,100 m depth. 
+Volve was a small oil field in the North Sea. It produced from sandstones of the Middle Jurassic **Hugin Formation** at ~2,700–3,100 m depth (NPD Factpages). 
 
 It started producing in 2008, was expected to last 3-5 years, and ran for 8. It shut down in 2016.
 
@@ -175,7 +175,7 @@ Built with Python and Excel.
 Volve dataset has tens of thousands of files. The dataset is used for 4 main reasons: 
 1. **It is real**: Real allocated production data, with real problems: NULL text in numeric columns, wells that changed role mid-life, missing sensor readings. This means cleaning it requires applying my professional skills.
 2. **It is verifiable**: The Volve's field history is publicly documented.
-My figures reconcile with the published field history: the 10 million Sm³ across all wells is about 63 million barrels, and the peak rates calculated for the two main producers add to roughly 9,000 Sm³/day, which matches the field's reported peak. Hence results from the repo can be reconciled against the official records.
+My figures reconcile with the published field history: the 10 million Sm³ across all wells is about 63 million barrels, and the peak rates calculated for the two main producers add to roughly 9,000 Sm³/day, which matches the field's reported peak. Hence results from the repo can be reconciled against the official records (NPD Factpages).
 3. **It is a known field**: NCS operators know this field. Meaning the analysis can be judged on its merits by people who know the right answers.
 4. **It's good for going beyond**: As a geoscientist, I wanted to apply my knowlege beyond creating charts and demonstrate how production data can be explored to understand well performance, identify production trends, and support operational decision-making.
 To reflect the type of analysis done by multidisciplinary teams working across subsurface, production and data analytics.
