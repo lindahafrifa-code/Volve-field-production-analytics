@@ -95,7 +95,7 @@ Not everyone reads Python. So the whole analysis also lives in a spreadsheet —
 pivot summaries, a table that flags each well's condition at a glance, and the
 findings written out in plain language.
 
-![Excel dashboard]([excel/Dashboard%20Monthly%20-Excel.png](https://github.com/lindahafrifa-code/Volve-field-production-analytics/blob/main/images/Dashboard%20Monthly%20-Excel.png)
+![excel/Dashboard%20Monthly%20-Excel.png](https://github.com/lindahafrifa-code/Volve-field-production-analytics/blob/main/images/Dashboard%20Monthly%20-Excel.png)
 
 -----
 
