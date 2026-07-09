@@ -8,13 +8,43 @@
 Volve was a small oil field in block 15/9, central North Sea, producing from sandstones of the Middle Jurassic **Hugin Formation** at ~2,700–3,100 m depth. Planned for 3–5 years, but produced for over 8 years (Feb 2008 – Sep 2016), recovering 63 million barrels at a 54% recovery rate.
 Pressure was maintained by water injection, with injection water drawn from the shallow Utsira.
 
-## Why Volve repo?
+## Why Volve project?
 
 Volve is a comprehensive open dataset released from the NCS: roughly 40,000 files disclosed by Equinor and its licence partners (ExxonMobil, Bayerngas) in 2018.
-The repo used Volve dataset for 3 main reasons: 
+The dataset is used for 3 main reasons: 
 1. **It is real.** Real allocated production data, with real problems: NULL text in numeric columns, wells that changed role mid-life, missing sensor readings. This means cleaning it requires applying my professional skills instead of formulas only.
 2. **It is verifiable.** The Volve's field history is publicly documented with peak production of ~56,000 bbl/d (≈9,000 Sm³/d), 63 million barrels recovered, a 54% recovery rate. Hence results from the repo can be reconciled against the official NPD records.
 3. **It is a known field.** NCS operators know this field. Meaning the analysis can be judged on its merits by people who know the right answers.
+This project combines data analysis with subsurface understanding to turn production data into practical insights.
+
+
+## What is analysed
+
+# Production performance
+Total oil production by well
+Total gas production by well
+Oil production decline rate
+Gas production trends
+
+# Reservoir and well behaviour
+Water cut over time
+Gas-Oil Ratio (GOR)
+Downhole pressure trends
+Pressure comparison between producers
+
+# Operations
+Choke size versus downhole pressure
+32-day shut-in analysis for well F-12H
+Production behaviour before and after restart
+
+
+
+
+
+
+
+
+
 
 ## Key Findings
 
